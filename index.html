@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <Title>
+
+        </Title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/x-icon" href="visual_studio.ico">
+        <link rel="stylesheet" href="index.css">
+        <script>
+            function getGreeting() {
+                var today = new Date();
+                var hour = today.getHours();
+    
+                if (hour >= 6 && hour < 12) {
+                    return "God morgen";
+                } else if (hour >= 12 && hour < 18) {
+                    return "Godettermiddag";
+                } else {
+                    return "God kveld";
+                }
+            }
+    
+            function displayGreeting() {
+                var greeting = getGreeting();
+                document.getElementById("greeting").innerHTML = greeting;
+            }
+        </script>
+    </head>
+    <body onload="displayGreeting()">
+        <h1 id="greeting" ></h1>
+        Jeg heter Birk og er en IT student fra Tromsø!<br>
+        
+        <p>
+            Her er katt
+        </p>
+        <video width="492" heigth="480" controls>
+            <source src="mmmtasty.mp4" type="video/mp4">
+            Du kan ikke se mp4 format??
+        </video><br><br>
+            Vil du joine en kjempekul modda Minecraft server? Klikk på bildet under<br>for å få modpacken fra Curseforge! IPen er 
+            <b style color:rgb(197, 166, 79)>bork.no</b> btw bildet er fra<br> fra den gamle servern (den hadde en reset :P)<br><br>
+        <a href="https://www.curseforge.com/minecraft/modpacks/the-1122-pack/files" target="_blank">
+            <img src="towa.png" width="500" alt="Et tårn"><br><br>
+        </a>
+        <p>
+            Hvis du vil ha din egen hudfarga nettside, send meg en epost på <a href="mailto:spam@bork.no">spam@bork.no</a><br>
+            for å putte den i spam mappen min. Her er CVen min forresten:
+        </p>
+        <object data="CV.pdf" type="application/pdf" width="500" height="1000"></object>
+        <p>Kan òg laste den ned <a href="CV.pdf">her</a> om du vil</p>
+    </body>
+</html>
