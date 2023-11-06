@@ -11,12 +11,12 @@ button {
     text-indent: 80px;
 }
 
-.flex {
+.flexcontainer {
     display: flex;
     background-color: DodgerBlue;
   }
   
-  .flex > div {
+  .flexcontainer > div {
     background-color: #c43f3f;
     margin: 10px;
     min-width: 350px;
