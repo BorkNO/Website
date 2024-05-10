@@ -16,12 +16,7 @@ body {
   text-align: left;
 }
 
-.flex-item-left {
-  padding: 10px;
-  flex: 50%;
-}
-
-.flex-item-right {
+.flex-item {
   padding: 10px;
   flex: 50%;
 }
