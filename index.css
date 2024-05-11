@@ -17,7 +17,7 @@ body {
   }
   
   .flexcontainer > div {
-    background-color: #c43f3f;
+    background-color: rgb(069, 240, 202);
     margin: 10px;
     min-width: 350px;
     width: 100%;
