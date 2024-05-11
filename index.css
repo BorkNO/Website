@@ -4,12 +4,11 @@ body {
     text-align:center;
 }
 
-button {
+.button {
     font-size: 30px;
-    max-width: 200px;
-    width: auto;
     text-align: left;
     text-indent: 80px;
+    width: 20%;
 }
 
 .flexcontainer {
