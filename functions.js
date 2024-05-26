@@ -6,8 +6,10 @@ function getGreeting() {
         return "God morgen";
     } else if (hour >= 12 && hour < 18) {
         return "God ettermiddag";
-    } else {
+    } else if (hour >= 18 && hour < 24) {
         return "God kveld";
+    } else {
+        return "God natt";
     }
 }
 
