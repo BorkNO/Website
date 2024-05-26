@@ -26,10 +26,11 @@ body {
 
 
 .flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 10px;
-  background-color: rgb(141, 116, 49);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(141, 116, 49);
 }
   
 .flex-container > div {
