@@ -53,9 +53,9 @@ body {
     flex: 50%;
 }
 
-a:link {
+a {
     color: #c7b693;
-  }
+}
 
 @media (max-width: 800px) {
     .flex-item-right, .flex-item-left {
