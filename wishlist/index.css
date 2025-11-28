@@ -46,9 +46,19 @@ body {
     text-align: center;
 }
 
-.flex-item {
+.flex-item-1 {
     padding: 10px;
-    flex: 50%;
+    flex: 33%;
+}
+
+.flex-item-2 {
+    padding: 10px;
+    flex: 33%;
+}
+
+.flex-item-3 {
+    padding: 10px;
+    flex: 33%;
 }
 
 a {
@@ -60,9 +70,8 @@ p {
 }
 
 @media (max-width: 800px) {
-    .flex-item-right, .flex-item-left {
+    .flex-item-1, .flex-item-2, flex-item-3 {
         flex: 100%;
-
     }
 
     .button {
