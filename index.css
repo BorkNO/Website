@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: consolas, monospace, Courier;
     background-color: #8f733b;
     text-align:center;
 }
@@ -74,4 +74,5 @@ p {
     .button {
         width: calc(100vw - 64px);
     }
+
 }
